@@ -5,7 +5,3 @@ var MakeLisaDancer = function(top, left, timeBetweenSteps) {
 
 MakeLisaDancer.prototype = Object.create(MakeDancer.prototype);
 MakeLisaDancer.prototype.constructor = MakeLisaDancer;
-// MakeBlinkyDancer.prototype.step = function () {
-//   MakeDancer.prototype.step.call(this);
-//   this.$node.toggle();
-// };
