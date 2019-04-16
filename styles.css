@@ -26,8 +26,9 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   position: fixed;
-  margin: 20px;
   float: left;
+  height: 125px;
+  width: 100px;
 }
 
 /* .dancer.lineup{
@@ -35,12 +36,8 @@ body, a:link, a:visited, a:active{
   top: 70vh;
 } */
 .dancer.animated{
-  border:10px solid red;
-  border-radius:10px;
-  height: 10px;
-  width: 10px;
-  margin: 5px;
   float: left;
+  animation-iteration-count: infinite;
 }
 .dancers_container {
   width: 100%;
